@@ -3,8 +3,8 @@ import { useNavigate, useParams } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
 import { buscar, atualizar, cadastrar } from "../../../services/Service";
 import { ToastAlerta } from "../../../utils/ToastAlerta";
-import type { Categoria } from "../../../models/Categoria";
-import type { Produto } from "../../../models/Produto";
+import type Categoria from "../../../models/Categoria";
+import type Produto from "../../../models/Produto";
 
 function FormProduto() {
 

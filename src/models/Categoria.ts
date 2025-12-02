@@ -1,6 +1,6 @@
 import type Produto from "./Produto";
 
-export default interface Cateforia{
+export default interface Categoria{
     id: number;
     nome: string;
     produto?: Produto [] | null;

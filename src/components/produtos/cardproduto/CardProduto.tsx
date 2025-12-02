@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { PencilIcon, TrashIcon } from "@phosphor-icons/react";
 import { ToastAlerta } from "../../../utils/ToastAlerta";
-import type { Produto } from "../../../models/Produto";
+import type Produto from "../../../models/Produto";
 
 interface CardProdutoProps {
     produto: Produto;

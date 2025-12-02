@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { buscar, deletar } from "../../../services/Service";
 import { ClipLoader } from "react-spinners";
 import { ToastAlerta } from "../../../utils/ToastAlerta";
-import type { Produto } from "../../../models/Produto";
+import type Produto from "../../../models/Produto";
 
 function DeletarProduto() {
 

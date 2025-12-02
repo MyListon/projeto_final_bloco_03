@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { buscar } from "../../../services/Service";
 import { SyncLoader } from "react-spinners";
 import CardProduto from "../cardproduto/CardProduto";
-import type { Produto } from "../../../models/Produto";
+import type Produto from "../../../models/Produto";
 
  function ListaProdutos() {
 
