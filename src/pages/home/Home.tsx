@@ -15,7 +15,7 @@ function Home() {
                             <div className='rounded text-white 
                                             border-white border-solid border-2 py-2 px-4'
                                 >
-                                Cadastrar
+                                Cadastrar Produto
                             </div>
                         </div>
                     </div>

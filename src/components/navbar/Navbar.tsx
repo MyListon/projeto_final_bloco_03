@@ -1,21 +1,17 @@
-function Navbar() {
-    return (
-        <>
-            <div className='w-full flex justify-center py-4
-            			   bg-green-900 text-white'>
-            
-                <div className="container flex justify-between text-lg mx-8">
-                    Vita Care
+import { Link } from "react-router-dom";
 
-                    <div className='flex gap-4'>
-                        Home
-                        Perfil
-                        Sair
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+function Navbar() {
+  return (
+    <nav className="bg-green-900 text-white flex justify-between p-4">
+      <Link to="/home" className="text-2xl font-bold">
+        🩺 Vita Care
+      </Link>
+      <div className="flex gap-4">
+        <Link to="/categorias">Categorias</Link>
+        <Link to="/cadastro">Cadastrar Categoria</Link>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
